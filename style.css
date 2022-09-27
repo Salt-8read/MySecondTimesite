@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+header {
+    position: relative;
+    padding-left: 100px;
+}
+
+pav {
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.char1{
+    display: flex;
+    color:black;
+    list-style-type: none;
+    text-align: center;
+}
+
+.char{
+    color: white;
+    padding-right: 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+    

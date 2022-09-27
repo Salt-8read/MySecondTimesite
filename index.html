@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <title>おにぎり</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    
+    <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
+
+    <script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+    </script>
+    
+</html>
